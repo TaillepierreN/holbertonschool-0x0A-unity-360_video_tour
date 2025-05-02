@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class Hotspot : MonoBehaviour
 {
-    GameObject CurrentSphere;
-    GameObject TargetSphere;
+    public GameObject CurrentSphere;
+    public GameObject TargetSphere;
+    public FadeController fadeController;
 
     public void OnHotspotClick()
     {
-        Debug.Log("Hotspot clicked!");
+        fadeController.StartFade(CurrentSphere, TargetSphere);
     }
 }
