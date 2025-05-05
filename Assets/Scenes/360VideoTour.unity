@@ -1889,7 +1889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeCanvasGroup: {fileID: 1555178911}
-  fadeDuration: 2
+  fadeDuration: 4
 --- !u!114 &685038190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2589,15 +2589,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 208122738720947879, guid: 020207f83cb82444a8019999e1fabbbe, type: 3}
       propertyPath: m_LocalScale.x
-      value: -1000
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 208122738720947879, guid: 020207f83cb82444a8019999e1fabbbe, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 208122738720947879, guid: 020207f83cb82444a8019999e1fabbbe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 208122738720947879, guid: 020207f83cb82444a8019999e1fabbbe, type: 3}
       propertyPath: m_LocalPosition.x

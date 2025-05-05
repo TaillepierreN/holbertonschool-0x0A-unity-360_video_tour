@@ -4,7 +4,7 @@ using System.Collections;
 public class FadeController : MonoBehaviour
 {
     public CanvasGroup fadeCanvasGroup;
-    public float fadeDuration = 2f;
+    public float fadeDuration = 4f;
 
 
     public void StartFade(GameObject CurrentSphere, GameObject TargetSphere)
@@ -43,7 +43,7 @@ public class FadeController : MonoBehaviour
     {
         yield return FadeOut();
         midAction?.Invoke();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2.5f);
         yield return FadeIn();
     }
 }

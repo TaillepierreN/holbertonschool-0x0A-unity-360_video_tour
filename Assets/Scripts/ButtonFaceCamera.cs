@@ -6,12 +6,10 @@ public class ButtonFaceCamera : MonoBehaviour
     {
         Transform cam = Camera.main.transform;
 
-        // Face the camera
-        transform.LookAt(transform.position + cam.forward, cam.up);
+        Vector3 targetPosition = cam.position;
+        targetPosition.y = transform.position.y;
 
-        // Flip the button to face the camera correctly
-        Vector3 scale = transform.localScale;
-        scale.x = -Mathf.Abs(scale.x);
-        transform.localScale = scale;
+        transform.LookAt(targetPosition);
+
     }
 }
