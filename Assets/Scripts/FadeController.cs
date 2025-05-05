@@ -4,7 +4,7 @@ using System.Collections;
 public class FadeController : MonoBehaviour
 {
     public CanvasGroup fadeCanvasGroup;
-    public float fadeDuration = 4f;
+    public float fadeDuration = 3f;
 
 
     public void StartFade(GameObject CurrentSphere, GameObject TargetSphere)
